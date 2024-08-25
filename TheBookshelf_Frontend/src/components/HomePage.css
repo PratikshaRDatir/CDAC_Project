@@ -1,0 +1,122 @@
+/* HomePage.css */
+
+.homepage {
+  background-image: url('/public/assets/book4.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: #333333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  padding: 20px
+}
+
+.navbar {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.navbar-light  {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333333;
+}
+
+.navbar-brand {
+  font-size: 2.5rem; 
+  font-weight: bold;
+  color: #333333;
+}
+
+.brand-first-letter {
+  color: #ff6347; 
+  font-size: 3rem; 
+}
+
+.brand-first-letter:nth-of-type(2) {
+  color: #4682b4;  
+}
+
+.navbar {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.navbar-light .navbar-nav .nav-link {
+
+  
+  color: #333333;
+  font-weight: bold;
+}
+
+.container {
+
+  text-align: center;
+  transform: translateY(-70%);
+}
+
+
+h1.display-4 {
+  
+    font-size: 3rem;
+  font-weight: bold;
+  color: #343a40;
+  margin-bottom: 10px;
+  
+}
+
+h2.lead {
+  
+    font-size: 1.5rem; 
+    font-weight: bold; 
+    font-style: italic; 
+    color: #080808;
+  }
+
+.btn-primary {
+  background-color: #3b5b7a;
+  border-color: #74943f;
+  padding: 8px 20px;
+  font-size: 1.2rem;
+  width: auto;
+  max-width: 200px;
+  text-align: center;
+}
+
+.btn-primary:hover {
+  background-color: #2ec579;
+  border-color: #0056b3;
+}
+
+
+
+.about-us-container {
+  padding: 20px;
+  margin-top: 0;
+}
+
+.about-us-container h1 {
+  
+  margin-top: 0;
+  
+}
+
+
+/* Styles for Contact Us page */
+.contact-us-container {
+
+  padding: 20px;
+  margin-top: 0;
+}
+
+
+.contact-us-container h1 {
+  
+  margin-top: 0;
+}
+
+

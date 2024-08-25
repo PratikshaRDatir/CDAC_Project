@@ -1,0 +1,79 @@
+/* Login.css */
+
+body, html {
+  margin: 0;
+  background-image: url('/public/assets/bg11.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: Arial, sans-serif; /* Optional: Set a global font */
+}
+
+.login-container {
+  background-image: url('/public/assets/bg7.jpeg');
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.btn {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: #fff; 
+  width: 100%; 
+  padding: 12px; 
+  font-size: 18px; 
+  border-radius: 4px; 
+}
+
+.btn-secondary {
+  margin-top: 10px;
+}
+
+.btn-link {
+  background: none;
+  color: #007bff;
+  text-decoration: underline;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.text-danger {
+  color: #dc3545;
+}
+
+.forgot-password-container {
+  margin-top: 20px;
+  padding: 20px;
+  border-top: 1px solid #ddd;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+}
+
+.forgot-password-container h3 {
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.forgot-password-container input {
+  margin-bottom: 10px;
+}
+
+/* Additional button styling */
+.btn-primary, .btn-secondary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-link {
+  color: #007bff;
+}

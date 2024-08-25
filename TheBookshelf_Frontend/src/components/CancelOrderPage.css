@@ -1,0 +1,48 @@
+.cancel-order-page {
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cancel-order-page h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .cancel-order-page p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .cancel-order-page .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #dc3545; /* Bootstrap danger color */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .cancel-order-page .btn:hover {
+    background-color: #c82333; /* Darker shade of danger color */
+  }
+  
+  .error-message {
+    color: #dc3545; /* Bootstrap danger color */
+    margin-top: 15px;
+    font-size: 16px;
+  }
+  
+  .success-message {
+    color: #28a745; /* Bootstrap success color */
+    margin-top: 15px;
+    font-size: 16px;
+  }
+  

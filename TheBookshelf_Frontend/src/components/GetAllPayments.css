@@ -1,0 +1,23 @@
+.payments-container {
+    padding: 20px;
+  }
+  
+  .payments-container .back-button {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .payments-container .back-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .table {
+    width: 100%;
+    margin-top: 20px;
+  }
+  

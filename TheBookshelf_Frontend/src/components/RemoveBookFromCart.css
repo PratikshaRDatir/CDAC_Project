@@ -1,0 +1,14 @@
+/* src/components/RemoveBookFromCart.css */
+.remove-book-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  .remove-book-container h2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
